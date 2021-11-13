@@ -2,7 +2,7 @@
 
 Angular and Nest
 
-b# How to run this project
+# How to run this project
 
 Clone the repository
 
