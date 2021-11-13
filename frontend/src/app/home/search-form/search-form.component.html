@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <h2 id="title">Search Post By ID</h2>
+  <mat-error *ngIf="validNumber"> Post ID is required </mat-error>
+  <mat-form-field class="full-width-input">
+    <input
+      matInput
+      placeholder="Post ID"
+      formControlName="postId"
+      type="number"
+      required
+    />
+    <mat-error> Please provide a post ID </mat-error>
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    [disabled]="form.invalid"
+    type="submit"
+    color="primary"
+  >
+    Send
+  </button>
+</form>

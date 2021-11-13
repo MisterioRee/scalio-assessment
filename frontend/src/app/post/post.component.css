@@ -1,0 +1,16 @@
+.post-container {
+  margin: 1.5em;
+  background-color: #e4e4e4;
+}
+
+.post-container .post-header {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+.post-container .post-content {
+  margin: 1em;
+}
+.button-home {
+  margin: 2em;
+}
